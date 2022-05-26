@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Tinder</title>
+</head>
+<body>
+    <nav class="navbar">
+        <i class="fa-solid fa-fire-flame-curved"></i>
+        <i class="fas fa-comments"></i>
+        <i class="fas fa-user"></i>
+    </nav>
+    <div class="photo-and-actions">
+        <div class="photo">
+            <div class="photo-text">
+                <div class="photo-name-and-age">
+                    <h2>Ana</h2>
+                    <h2>27</h2>
+                </div>
+                <div class="photo-bio">
+                    Amo a vida, adoro viajar. 
+                    Adoro correr para qualquer lado, mas, se você me der like, posso correr na sua direção!
+                    Adoro viajar e as praias me fascinam. Vivo a vida intensamente, e você?
+                </div>
+            </div>
+        </div>
+        <div id="back" onClick="previus()"></div>
+        <div id="next" onClick='next()'></div>
+        <div class="actions">
+            <div class="action">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <div class="action">
+                <i class="fas fa-star"></i>
+            </div>
+
+            <div class="action">
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e418ce3ba1.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./model/profiles.js"></script>
+</body>
+</html>
